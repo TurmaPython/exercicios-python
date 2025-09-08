@@ -1,3 +1,4 @@
+#TAREFA DE CASA: IMPLEMENTAR PARA FAZER COM QUE O CARRO NÃO DESLIGUE QUANDO ESTIVER EM VELOCIDADE!
 # Definindo a classe Carro
 class Carro:
     # O método construtor __init__ inicializa os atributos do objeto.
