@@ -14,6 +14,10 @@ class Carro (Veiculo):
     def _init_(self, modelo, cor):
         self.modelo = modelo 
         self.cor = cor
+class Caminhao (Veiculo):
+    def _init_(self, modelo, cor, carga):
+        self.modelo = modelo 
+        self.cor = cor
         self.carga = carga
     
     def ligar(self):
