@@ -64,10 +64,6 @@ class Carro(VeiculoMotorizado):
         else:
             raise Exception("Erro: O motor precisa estar ligado para acelerar.")
     
-    def registro(self):
-        registro.registrar(self, meu_carro)
-        registro.listar_veiculos(self, meu_carro)
-
 # Herança e Polimorfismo: Moto implementa a interface VeiculoMotorizado
 class Moto(VeiculoMotorizado):
     def __init__(self, marca, modelo):
@@ -83,10 +79,6 @@ class Moto(VeiculoMotorizado):
             print(f"A {self.modelo} está acelerando na pista!")
         else:
             raise Exception("Erro: A moto precisa estar ligada para acelerar.")
-    
-    def registro(self):
-        registro.registrar(self, minha_moto)
-        registro.listar_veiculos(self, minha_moto)
 
 # Função que sa polimorfismo
 def testar_veiculo(veiculo):
